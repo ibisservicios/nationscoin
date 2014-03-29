@@ -1,0 +1,34 @@
+src/*.exe
+src/nationscoin
+src/nationscoind
+src/test_nationscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.nationscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+nationscoin-qt
+Nationscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+nationscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
